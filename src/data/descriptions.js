@@ -5,7 +5,9 @@ const descriptions = {
     aboutMe: "Sobre mi",
     myProjects: "Mis proyectos",
     aboutMe: "Sobre mi",
-    image: "/images/illustration-features-tab-3.svg",
+    image: "images/illustration-features-tab-3.svg",
+    dashboard: "Lista de dashboards de ",
+    viewDashboard: "Ver Dashboard",
     aboutMeDescription: "eja muito bem-vindo(a) ao meu portfólio. Conheça a minha trajetória:",
     aboutMeDescriptionDetails: [
         {

@@ -50,7 +50,7 @@ const features = [
     },
     {
         id: 2,
-        name: "Speedy Searching",
+        name: "Logística",
         details: {
             imageUrl: "images/illustration-features-tab-2.svg",
             title: "Intelligent search",
@@ -80,7 +80,7 @@ const features = [
     },
     {
         id: 3,
-        name: "Speedy Sharing",
+        name: "Cadena Suministros",
         details: {
             imageUrl: "images/illustration-features-tab-3.svg",
             title: "Easy sharing",
@@ -121,6 +121,93 @@ const features = [
             
         ]
     },
+    {
+        id: 4,
+        name: "Servicio al cliente",
+        details: {
+            imageUrl: "images/illustration-features-tab-3.svg",
+            title: "Easy sharing",
+            description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
+            link: "#",
+        },
+        dashboards: [
+            {
+                id: 0,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",
+            },
+            {
+                id: 1,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 2,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 3,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 4,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            }
+            
+        ]
+    },
+    {
+        id: 5,
+        name: "Otros",
+        details: {
+            imageUrl: "images/illustration-features-tab-3.svg",
+            title: "Easy sharing",
+            description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
+            link: "#",
+        },
+        dashboards: [
+            {
+                id: 0,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",
+            },
+            {
+                id: 1,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 2,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 3,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            },
+            {
+                id: 4,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Description del dashboard",        
+            }
+            
+        ]
+    },
+
 ];
 
 export default features;

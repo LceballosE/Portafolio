@@ -49,11 +49,11 @@
                 </div>
                 <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#features">Features</a>
+                        <a  @click="toggleMobileNav()" href="#features">Portafolio</a>
                     </li>
-                    <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
+                    <!-- <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
                         <a  @click="toggleMobileNav()" href="#faq">FAQ</a>
-                    </li>
+                    </li> -->
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
                         <a  @click="toggleMobileNav()" href="#subscribe">Subscribe</a>
                     </li>

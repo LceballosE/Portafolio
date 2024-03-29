@@ -9,7 +9,10 @@
         <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
     </div>
     <div class="flex justify-center mb-8">
-        <a btn-type="primary" :href="link" target="_blank" class="text-sm">ver dashboard</a>
+                                
+        <a :href="link" target="_blank" class="font-theme-heading font-medium bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 mr-5">
+                                  {{descriptions.viewDashboard}}                                   
+        </a>
     </div>
     <!-- Download Section End -->
 </template>
@@ -20,5 +23,7 @@ defineProps({
   link: String,
   description: String,
 })
+
+import descriptions from '../data/descriptions.js';
 
 </script>
