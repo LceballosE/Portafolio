@@ -1,13 +1,47 @@
 const features = [
     {
         id: 1,
-        name: "Simple Bookmaring",
+        name: "Ventas",
         details: {
-            imageUrl: "images/illustration-features-tab-1.svg",
-            title: "Bookmark in one click",
-            description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.",
+            imageUrl: "images/ventas-tablet.png",
+            title: "Seguimiento de ventas",
+            description: "Ventas en el sector agroalimentario. Destaca indicadores como: ingresos por temporada, análisis de los productos más vendidos, comparación entre cosechas, volúmenes y exportaciones por país.",
             link: "#",
         },
+        dashboards: [
+            {
+                id: 0,
+                icon: "images/dashboards/Ventas/1.Ventas-1.Ventas.png",
+                title: "Add to Firefox",
+                description: "Minimum version 55",
+            },
+            {
+                id: 1,
+                icon: "images/dashboards/Ventas/1.Ventas-2.Pagos.png",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 2,
+                icon: "images/dashboards/Ventas/1.Ventas-3.Clientes.png",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 3,
+                icon: "images/dashboards/Ventas/1.Ventas-4.Productos.png",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 4,
+                icon: "images/dashboards/Ventas/2.Ventas-1.EjercioDax.png",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            }
+
+
+        ]
     },
     {
         id: 2,
@@ -18,6 +52,26 @@ const features = [
             description: "Get quick results with our intelligent search feature. Find your bookmarks effortlessly and save time navigating through your favorite websites.",
             link: "#",
         },
+        dashboards: [
+            {
+                id: 0,
+                icon: "images/dashboards/logo-opera.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",
+            },
+            {
+                id: 1,
+                icon: "images/dashboards/logo-opera.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 2,
+                icon: "images/dashboards/logo-opera.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            }
+        ]
     },
     {
         id: 3,
@@ -28,6 +82,39 @@ const features = [
             description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
             link: "#",
         },
+        dashboards: [
+            {
+                id: 0,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",
+            },
+            {
+                id: 1,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 2,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 3,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            },
+            {
+                id: 4,
+                icon: "images/dashboards/logo-chrome.svg",
+                title: "Add to Firefox",
+                description: "Minimum version 55",        
+            }
+            
+        ]
     },
 ];
 

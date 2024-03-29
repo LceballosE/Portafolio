@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import Swal from "sweetalert2";
+import descriptions from '../data/descriptions.js';
 
 let email = ref("");
 let emailError = ref(false);

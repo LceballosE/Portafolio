@@ -2,6 +2,8 @@
 
 import features from '../data/features.js';
 import { ref } from 'vue';
+import descriptions from '../data/descriptions.js';
+import Dashboards from "../components/DashboardSection.vue";
 
 let isOpen = ref(1);
 
@@ -12,8 +14,8 @@ let isOpen = ref(1);
     <div id="features" class="container mx-auto px-5">
         <section class="py-16">
             <div class="w-4/5 md:w-3/5 mx-auto">
-                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">Features</h2>
-                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">{{ descriptions.myProjects }}</h2>
+                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">{{descriptions.projectDescription}}</p>
             </div>
 
             <div class="mt-10">
@@ -40,7 +42,23 @@ let isOpen = ref(1);
                             </div>
                         </div>
                     </div>
+                    <div v-show="isOpen === feature.id" id="dashboard-section" class="container mx-auto px-5 md:w-4/5">
+                        <section class="pt-10">
+                            <div class="w-4/5 md:w-3/5 mx-auto">
+                                <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">Download the extension</h2>
+                                <p class="text-theme-grayish-blue text-center text-lg font-theme-content mt-7">We've got more browsers in pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+                            </div>
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                                <div v-for="(dashboard, index) in feature.dashboards" :key="dashboard.id" class="shadow-lg rounded-lg">
+                                <Dashboards :title ="dashboard.title" :icon="dashboard.icon" :link="dashboard.link" :description="dashboard.description">
+                                </Dashboards>
+                            </div>
+                            </div>
+                        </section>
+                    </div>
                 </template>
+                
+
                 <!-- Tab Content -->
             </div>
         </section>
