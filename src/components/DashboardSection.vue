@@ -9,7 +9,7 @@
         <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
     </div>
     <div class="flex justify-center mb-8">
-        <LinkButton btn-type="primary" :link="link" class="text-sm">ver dashboard</LinkButton>
+        <a btn-type="primary" :href="link" target="_blank" class="text-sm">ver dashboard</a>
     </div>
     <!-- Download Section End -->
 </template>

@@ -8,7 +8,7 @@
                 <p class="lg:text-xl mt-10 font-theme-content text-theme-grayish-blue text-center lg:text-left">{{descriptions.description}}</p>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <LinkButton btn-type="primary" link="#about-me">{{descriptions.aboutMe}}</LinkButton>
-                    <LinkButton btn-type="muted" link="#feature-section">{{descriptions.myProjects}}</LinkButton>
+                    <LinkButton btn-type="muted" link="#features">{{descriptions.myProjects}}</LinkButton>
                 </div>
             </div>
             <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10">
