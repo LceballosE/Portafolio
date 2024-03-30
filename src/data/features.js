@@ -3,7 +3,7 @@ const features = [
         id: 1,
         name: "Ventas",
         details: {
-            imageUrl: "images/ventas-tablet.png",
+            imageUrl: "images/dashboard-2.svg",
             title: "Seguimiento de ventas",
             description: "Ventas en el sector agroalimentario. Destaca indicadores como: ingresos por temporada, análisis de los productos más vendidos, comparación entre cosechas, volúmenes y exportaciones por país.",
             link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
@@ -52,7 +52,7 @@ const features = [
         id: 2,
         name: "Logística",
         details: {
-            imageUrl: "images/illustration-features-tab-2.svg",
+            imageUrl: "images/Datos-man.svg",
             title: "Intelligent search",
             description: "Get quick results with our intelligent search feature. Find your bookmarks effortlessly and save time navigating through your favorite websites.",
             link: "#",
@@ -82,7 +82,7 @@ const features = [
         id: 3,
         name: "Cadena Suministros",
         details: {
-            imageUrl: "images/illustration-features-tab-3.svg",
+            imageUrl: "images/panel.svg",
             title: "Easy sharing",
             description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
             link: "#",
@@ -125,7 +125,7 @@ const features = [
         id: 4,
         name: "Servicio al cliente",
         details: {
-            imageUrl: "images/illustration-features-tab-3.svg",
+            imageUrl: "images/Datos-man.svg",
             title: "Easy sharing",
             description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
             link: "#",
@@ -168,7 +168,7 @@ const features = [
         id: 5,
         name: "Otros",
         details: {
-            imageUrl: "images/illustration-features-tab-3.svg",
+            imageUrl: "images/dashboard-6.svg",
             title: "Easy sharing",
             description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
             link: "#",
