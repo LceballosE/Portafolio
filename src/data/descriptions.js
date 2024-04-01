@@ -30,7 +30,33 @@ const descriptions = {
         },
     ],
     projectDescription: "Desde la supervisión financiera hasta la optimización de la cadena de suministro, pasando por el análisis de ventas y la evaluación de programas educativos, estos paneles ofrecen una visión clara y detallada de múltiples aspectos operativos y estratégicos. Con una interfaz intuitiva y visualizaciones dinámicas, cada dashboard es una herramienta esencial para el análisis de datos y la inteligencia empresarial",
+    aboutMehabilities: [
+        {
+            id: 0,
+            text: "Me desempeño como desarrolladora Full Stack,",
+            icon: "images/logo-chrome.svg",
+            title: "Graficos",
+        },
+        {
+            id: 1,
+            text: "Me desempeño como desarrolladorad para abordar desafíos complejos con soluciones innovadoras.",
+            icon: "images/logo-chrome.svg",
+            title: "analisis",
+        },
+        {
+            id: 2,
+            text: "Me deo una pasión por la ioactividad para abordar desafíos complejos con soluciones innovadoras.",
+            icon: "images/logo-chrome.svg",
+            title: "visualizacion",
+        },        {
+            id: 3,
+            text: "Me deo una pasión por la innovatacarme",
+            icon: "images/logo-chrome.svg",
+            title: "Report",
+        },
 
+
+    ],
 };
 
 export default descriptions;
