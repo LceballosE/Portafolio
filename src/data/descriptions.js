@@ -1,14 +1,14 @@
 const descriptions = {
     hello: "Hola, Soy",
     name: "Lorena Ceballos",
-    description: "Especialista em Power BI certificada pela Microsoft. Desenvolvo dashboards interativos e automatizados para diferentes áreas de negócio.",
+    description: "Especialista en Power BI certificado por Microsoft. Este portafolio presenta una colección diversa de dashboards interactivos y visualmente atractivos diseñados en Power BI. Cada panel está meticulosamente construido para proporcionar insights clave y facilitar la toma de decisiones en áreas críticas de negocio",
     aboutMe: "Sobre mi",
     myProjects: "Mis proyectos",
     aboutMe: "Sobre mi",
     image: "images/illustration-features-tab-3.svg",
     dashboard: "Lista de dashboards de ",
     viewDashboard: "Ver Dashboard",
-    aboutMeDescription: "eja muito bem-vindo(a) ao meu portfólio. Conheça a minha trajetória:",
+    aboutMeDescription: "Bienvenido a mi portafolio. Conozca mi trayectoria profesional:",
     aboutMeDescriptionDetails: [
         {
             id: 0,
@@ -29,7 +29,7 @@ const descriptions = {
             title: "Docente",
         },
     ],
-    projectDescription: "| Explore alguns projetos que já desenvolvi:",
+    projectDescription: "Desde la supervisión financiera hasta la optimización de la cadena de suministro, pasando por el análisis de ventas y la evaluación de programas educativos, estos paneles ofrecen una visión clara y detallada de múltiples aspectos operativos y estratégicos. Con una interfaz intuitiva y visualizaciones dinámicas, cada dashboard es una herramienta esencial para el análisis de datos y la inteligencia empresarial",
 
 };
 

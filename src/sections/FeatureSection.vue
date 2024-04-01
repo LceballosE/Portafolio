@@ -18,7 +18,7 @@
             <div class="mt-16">
                 <!-- Tab Content -->
                 <template v-for="feature in features" :key="feature.id">
-                    <div v-show="isOpen === feature.id" class="grid gap-32 lg:grid-cols-2 items-center">
+                    <!-- <div v-show="isOpen === feature.id" class="grid gap-32 lg:grid-cols-2 items-center">
                         <div class="relative">
                             <img class="z-10 w-full" :src="feature.details.imageUrl" />
                             <div class="-z-10 bg-theme-background h-52 w-96 sm:h-80 sm:w-full rounded-r-full absolute -left-56 -bottom-16"></div>
@@ -34,17 +34,17 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div v-show="isOpen === feature.id" id="dashboard-section" class="container mx-auto px-5 md:w-4/5">
-                        <section class="pt-10">
-                            <div class="w-4/5 md:w-3/5 mx-auto mb-10">
+                        <section class="">
+                            <!-- <div class="w-4/5 md:w-3/5 mx-auto mb-10">
                                 <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">
                                      <span class="text-3xl md:text-4xl text-primary font-medium text-center">
                                         {{ descriptions.dashboard }}
                                     </span>
                                     {{ feature.name }}
                                 </h2>
-                            </div>
+                            </div> -->
                             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                                 <div v-for="(dashboard, index) in feature.dashboards" :key="dashboard.id" class="shadow-lg rounded-lg">
                                     <Dashboards :title ="dashboard.title" :icon="dashboard.icon" :link="dashboard.link" :description="dashboard.description">

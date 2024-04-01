@@ -11,13 +11,7 @@
                     </div>
                     <ul class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-8 text-xs text-center md:text-left font-theme-heading">
                         <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#features" v-smooth-scroll>Features</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#faq" v-smooth-scroll>FAQ</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#download-section" v-smooth-scroll>Download</a>
+                            <a href="#features" v-smooth-scroll>Mis proyectos</a>
                         </li>
                     </ul>
                 </div>
