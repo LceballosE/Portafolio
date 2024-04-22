@@ -9,6 +9,7 @@ const descriptions = {
     dashboard: "Lista de dashboards de ",
     viewDashboard: "Ver Dashboard",
     aboutMeDescription: "Bienvenido a mi portafolio. Conozca mi trayectoria profesional:",
+    keyPoints: "Puntos claves:",
     aboutMeDescriptionDetails: [
         {
             id: 0,
@@ -33,26 +34,39 @@ const descriptions = {
     aboutMehabilities: [
         {
             id: 0,
-            text: "Me desempeño como desarrolladora Full Stack,",
-            icon: "images/logo-chrome.svg",
-            title: "Graficos",
+            text: "Cuento con experiencia en Fronend (Vue.js), Backend (.Net, APIs) y base de datos (Sql server) desarrollando aplicaciones completas.",
+            icon: "images/Icons/integration_instructions_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "Desarrollo de software",
         },
         {
             id: 1,
-            text: "Me desempeño como desarrolladorad para abordar desafíos complejos con soluciones innovadoras.",
-            icon: "images/logo-chrome.svg",
-            title: "analisis",
+            text: "He trabajado con servicios de datos de Azure como Databricks, Synapse, Data factory , entre otros.",
+            icon: "images/Icons/database_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "ETL",
         },
         {
             id: 2,
-            text: "Me deo una pasión por la ioactividad para abordar desafíos complejos con soluciones innovadoras.",
-            icon: "images/logo-chrome.svg",
-            title: "visualizacion",
-        },        {
+            text: "Me apasiona comprender la realidad de los negocios y visualizar las posibilidades que los datos tienen para contar de una manera atractiva.",
+            icon: "images/Icons/monitoring_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "Análisis de datos"
+        },
+        {
             id: 3,
-            text: "Me deo una pasión por la innovatacarme",
-            icon: "images/logo-chrome.svg",
-            title: "Report",
+            text: "Soy profesora de tecnología y consultora. Me apasiona compartir mi conocimiento y aprender algo nuevo lo que me permite evolucionar rapidamente.",
+            icon: "images/Icons/school_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "Docente y Consultora"
+        },
+        {
+            id: 4,
+            text: "Cuento con diversos cursos certificados de avalan mi conocimiento en diferentes temas tecnológicos, destacando Developer y Power BI Associate ",
+            icon: "images/Icons/badge_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "Certificados vigentes",
+        },
+        {
+            id: 5,
+            text: "Capacidad sólida para colaborar eficazmente en equipos multidisciplinarios, impulsando el éxito colectivo con comunicación abierta y resolución de problemas colaborativa.",
+            icon: "images/Icons/diversity_3_FILL0_wght400_GRAD0_opsz24.svg",
+            title: "Trabajo en equipo"
         },
 
 

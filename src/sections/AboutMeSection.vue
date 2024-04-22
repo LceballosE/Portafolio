@@ -20,13 +20,12 @@
                 <!-- Tab Content -->
             </div>
             <div class="w-4/5 md:w-3/5 mx-auto">
-                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">{{ descriptions.aboutMe }}</h2>
-                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">{{descriptions.aboutMeDescription}}</p>
+                <h2 class="text-3xl md:text-4xl font-semibold font-theme-heading text-center">{{ descriptions.keyPoints }}</h2>
             </div>
 
-            <div class="container grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 mx-auto px-5 md:w-4/5">
+            <div class="container mx-auto grid md:w-4/5 gap-8 lg:grid-cols-3 px-5">
                 <div v-for="(details, index) in descriptions.aboutMehabilities" :key="details.id">
-                    <div class="px-5 md:w-4/5 w-3/5 shadow-lg rounded-lg">
+                    <div class="px-5 shadow-lg rounded-lg">
                             <div>
                                 <div class="flex justify-center mt-12 m-5">
                                     <img :src="details.icon" alt="Browser Logo" />
