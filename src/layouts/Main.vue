@@ -11,9 +11,9 @@ import AboutMe from "../sections/AboutMeSection.vue";
 
 <template>
     <HeroSection />
-    <AboutMe />
 
     <FeatureSection />
+    <AboutMe />
 
 
 

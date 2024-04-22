@@ -5,7 +5,7 @@ const features = [
         details: {
             imageUrl: "images/dashboard-2.svg",
             title: "Seguimiento de ventas",
-            description: "Ventas en el sector agroalimentario. Destaca indicadores como: ingresos por temporada, análisis de los productos más vendidos, comparación entre cosechas, volúmenes y exportaciones por país.",
+            description: "Destaca indicadores como: análisis de los productos más vendidos, comparación entre clientes",
             link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
         },
         dashboards: [
@@ -30,6 +30,13 @@ const features = [
                 title: "Ingresos y ventas",
                 description: " Este panel dinámico ofrece una visión clara del rendimiento de ventas, con gráficos específicos que muestran los ingresos generados por cada vendedor, el total de órdenes, los ingresos mensuales y la base de clientes", 
                 link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkNGUwZTItYzM3NS00MzgxLThkMTgtNDIyZjQzMDViODg2IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"       
+            },
+            {
+                id: 3,
+                icon: "images/dashboards/Ventas/Screenshot_2.png",
+                title: "Seguimiento de ventas  - Tienda de viajes",
+                description: "Este panel dinámico ofrece gráficos específicos de productos y su distribución en brasil.", 
+                link: "https://app.powerbi.com/view?r=eyJrIjoiYmY3ZmViOTMtZTcyMC00ZjJkLWFiNzQtYzYyNGNkZWYwMWE4IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"       
             }
         ]
     },
@@ -40,7 +47,6 @@ const features = [
             imageUrl: "images/dashboard.svg",
             title: "Seguimiento de impacto de cursos ofrecidos",
             description: "Los dashboard educativos ofrecen una visión completa del progreso de los estudiantes en diferentes cursos. Monitorea la asistencia diaria, la adquisición de materiales de estudio, y el logro final del certificado. Diseñado para facilitar la gestión educativa, estos dashboard son una herramienta esencial para rastrear la participación y el éxito de los diferentes cursos ofrecidos.",
-            link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
         },
         dashboards: [
             {
@@ -54,36 +60,40 @@ const features = [
     },
     {
         id: 3,
-        name: "Educación",
+        name: "Servicio al cliente",
         details: {
             imageUrl: "images/dashboard-2.svg",
-            title: "Seguimiento de impacto de cursos ofrecidos",
+            title: "Seguimiento de servicio al cliente",
             description: "Los dashboard educativos ofrecen una visión completa del progreso de los estudiantes en diferentes cursos. Monitorea la asistencia diaria, la adquisición de materiales de estudio, y el logro final del certificado. Diseñado para facilitar la gestión educativa, estos dashboard son una herramienta esencial para rastrear la participación y el éxito de los diferentes cursos ofrecidos.",
             link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
         },
         dashboards: [
             {
                 id: 0,
-                icon: "images/dashboards/Ventas/1.Ventas-3.Clientes.png",
-                title: "Dashboard Bootcamp ADS",
-                description: "ventas mensuales y analis de clientes y productos.",
-                link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
+                icon: "images/dashboards/Servicio al cliente/Screenshot_22.png",
+                title: "Atención al cliente",
+                description: "Con este dashboard, puedes monitorear métricas clave, como el tiempo de respuesta, la satisfacción del cliente y el volumen de consultas.",
+                link: "https://app.powerbi.com/view?r=eyJrIjoiODE0ZDU0ZDYtNDhhNi00MGMyLWJkZjUtOTYyMzc1YzYwY2IwIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
             },
+        ]
+    },
+    {
+        id: 4,
+        name: "Recursos Humanos",
+        details: {
+            imageUrl: "images/dashboard-2.svg",
+            title: "Seguimiento de servicio al cliente",
+            description: "Los dashboard educativos ofrecen una visión completa del progreso de los estudiantes en diferentes cursos. Monitorea la asistencia diaria, la adquisición de materiales de estudio, y el logro final del certificado. Diseñado para facilitar la gestión educativa, estos dashboard son una herramienta esencial para rastrear la participación y el éxito de los diferentes cursos ofrecidos.",
+            link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
+        },
+        dashboards: [
             {
-                id: 1,
-                icon: "images/dashboards/Ventas/xsales.png",
-                title: "Dashboard Bootcamp Seguridad",
-                description: "Description del dashboard",
-                link: "https://app.powerbi.com/view?r=eyJrIjoiMTRjODMxMzQtZmIwOC00MjYwLTlmMDItZDIwOTZjMTNjZDdlIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
-        
+                id: 0,
+                icon: "images/dashboards/Recursos Humanos/Screenshot_1.png",
+                title: "Atención al cliente",
+                description: "Centraliza la gestión de recursos humanos con nuestro dashboard: visualiza datos de personal, seguimiento de desempeño, gestión de vacaciones y más, todo en una sola plataforma intuitiva.",
+                link: "https://app.powerbi.com/view?r=eyJrIjoiMDJlYTcxNWUtNzdmYS00NjIwLTg0NTAtMjU0ZmY0NzdlYzFjIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
             },
-            {
-                id: 2,
-                icon: "images/dashboards/Ventas/2.Ventas-1.EjercioDax.png",
-                title: "Seguimiento de servicio",
-                description: "Description del dashboard", 
-                link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkNGUwZTItYzM3NS00MzgxLThkMTgtNDIyZjQzMDViODg2IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"       
-            }
         ]
     },
 
