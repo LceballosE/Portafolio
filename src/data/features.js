@@ -11,10 +11,10 @@ const features = [
         dashboards: [
             {
                 id: 0,
-                icon: "images/dashboards/Ventas/1.Ventas-3.Clientes.png",
-                title: "Seguimiento de ventas",
-                description: "Este dashboard proporciona una visión integral de la actividad de ventas, destacando canales de ventas, desempeño de productos, comportamiento de clientes y tendencias de ventas",
-                link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
+                icon: "images/dashboards/Ventas/Screenshot_2.png",
+                title: "Seguimiento de ventas  - Tienda de viajes",
+                description: "Este panel dinámico ofrece gráficos específicos de productos y su distribución en brasil.", 
+                link: "https://app.powerbi.com/view?r=eyJrIjoiYmY3ZmViOTMtZTcyMC00ZjJkLWFiNzQtYzYyNGNkZWYwMWE4IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"       
             },
             {
                 id: 1,
@@ -33,10 +33,16 @@ const features = [
             },
             {
                 id: 3,
-                icon: "images/dashboards/Ventas/Screenshot_2.png",
-                title: "Seguimiento de ventas  - Tienda de viajes",
-                description: "Este panel dinámico ofrece gráficos específicos de productos y su distribución en brasil.", 
-                link: "https://app.powerbi.com/view?r=eyJrIjoiYmY3ZmViOTMtZTcyMC00ZjJkLWFiNzQtYzYyNGNkZWYwMWE4IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"       
+                icon: "images/dashboards/Ventas/1.Ventas-3.Clientes.png",
+                title: "Seguimiento de ventas - tienda",
+                description: "Este dashboard proporciona una visión integral de la actividad de ventas, destacando canales de ventas, desempeño de productos, comportamiento de clientes y tendencias de ventas",
+                link: "https://app.powerbi.com/view?r=eyJrIjoiZWMwNTU2YmYtMmVmYi00MmI1LTkzNTQtNzk3ZDU2M2EwZmQ1IiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9&pageName=ReportSection"
+            },            {
+                id: 4,
+                icon: "images/dashboards/Ventas/datacacao.png",
+                title: "Dashboard Comercial - Brasil",
+                description: "Este dashboard proporciona una visión integral de la actividad de ventas para la empresa DataCacao en Brasil. Destaca elementos geográficos y categoria de productos.",
+                link: "https://app.powerbi.com/view?r=eyJrIjoiMTk4NGU5MjQtNDkwMi00MGRmLTkxMWMtOGI5MjdiZTA2MTgzIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
             }
         ]
     },
@@ -90,10 +96,18 @@ const features = [
             {
                 id: 0,
                 icon: "images/dashboards/Recursos Humanos/Screenshot_1.png",
-                title: "Atención al cliente",
+                title: "Análisis de personal",
                 description: "Centraliza la gestión de recursos humanos con nuestro dashboard: visualiza datos de personal, seguimiento de desempeño, gestión de vacaciones y más, todo en una sola plataforma intuitiva.",
                 link: "https://app.powerbi.com/view?r=eyJrIjoiMDJlYTcxNWUtNzdmYS00NjIwLTg0NTAtMjU0ZmY0NzdlYzFjIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
             },
+            {
+                id: 1,
+                icon: "images/dashboards/Recursos Humanos/Servicios de internet.png",
+                title: "Soporte y mesa de ayuda - En construcción",
+                description: "Con este dashboard, puedes monitorear métricas clave, como el tiempo de respuesta, el volumen de casos por agente y su desempeño.",
+                link: "https://app.powerbi.com/view?r=eyJrIjoiZjk3OTMxYzgtNjIwOC00NzJlLWJiMGYtYTJhMjlhZjhjMjVmIiwidCI6ImQwY2U5YWJmLTQ3MDMtNDc0Yi05M2JjLTI4NWIxNmM2NWFiMCIsImMiOjR9"
+            },
+
         ]
     },
 
